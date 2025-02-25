@@ -2,18 +2,18 @@
 import PackageDescription
 
 let package = Package(
-   name: "SampleApp",
+   name: "designsystem",
    platforms: [
       .iOS(.v14),
    ],
    products: [
-      .library(name: "SampleApp", targets: ["SampleApp"])
+      .library(name: "designsystem", targets: ["designsystem"])
    ],
    targets: [
       .binaryTarget(
          name: "SampleApp",
-         url: "https://github.com/TristanTHF/DesignSystemSPM/releases/download/0.0.1/SampleApp.xcframework.zip",
-         checksum:"f1c3d0e20c64cddafa011a56ff60aff4cb696a3fa911435b8a020f72e3c9b4f7"
+         url: "https://github.com/TristanTHF/DesignSystemSPM/releases/download/0.1.1/designsystem.xcframework.zip",
+         checksum:"cd0d01ba47ef55e9e3d7abb89654f564a050d1de2de9d0dd6c8e81cb91deda7c"
       )
    ]
 )
