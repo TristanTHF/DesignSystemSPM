@@ -12,8 +12,8 @@ let package = Package(
    targets: [
       .binaryTarget(
          name: "designsystem",
-         url: "https://github.com/TristanTHF/DesignSystemSPM/releases/download/0.1.2/designsystem.xcframework.zip",
-         checksum:"cd0d01ba47ef55e9e3d7abb89654f564a050d1de2de9d0dd6c8e81cb91deda7c"
+         url: "https://github.com/TristanTHF/DesignSystemSPM/releases/download/0.1.3/designsystem.xcframework.zip",
+         checksum:"d8896aeb0ceaa12b0350632fa5b1f482a4f690ebd052acc7584f25c2baca6238"
       )
    ]
 )
